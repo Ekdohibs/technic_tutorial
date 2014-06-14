@@ -74,22 +74,25 @@ Ok, now you can smelt some of your ore... But don't smelt all of it!
 Here is what you will need:
 <...>
 
-The base ingredient of electrical circuits is... wires, of course!
-So, craft <...> wires using the copper ingots.
+The base ingredient of electrical networks is... cables, of course!
+So, craft <...> cables using the copper ingots. Note that cables are
+not mesecon wires: while the latter will only transport information
+(on or off state), the former will be able to transport energy, which
+is what we want.
 
-[[craft_lv_wire.png]]
+[[craft_lv_cables.png]]
 
-To run your circuit, you will also need a switching station - it is
+To run your networks, you will also need a switching station - it is
 the component which will handle all the logic. However, building a
-switching station is expensive: You will need two wires, two copper
+switching station is expensive: You will need two cables, two copper
 ingots, four cast iron ingots and a LV transformer. I'm hearing you
 saying "Cast iron? What's that?", so let me explain a bit.
 
 [[craft_switching_station.png]]
 
 In technic, iron has several forms: the first one is wrought iron,
-which is basically iron, in its ingot form. The second one is cast
-iron, which is an alloy of iron and carbon, which high carbon
+which is basically pure iron, in its ingot form. The second one is
+cast iron, which is an alloy of iron and carbon, with high carbon
 content. To get it, just smelt again an ingot of wrought iron; the
 carbon in the coal will alloy with the iron and form cast iron. There
 are two other forms of iron, which we will see later.
@@ -103,9 +106,8 @@ iron ingots and two coils to make it.
 
 [[craft_lv_transformer.png]]
 
-Finally, the copper coil. Well, it is but fine wire wrapped
-<... find better word> around some metal ring. To make it you need
-fine copper wire and <...> iron.
+Finally, the copper coil. Well, it is but fine wire wrapped around
+some metal ring. To make it you need fine copper wire and <...> iron.
 
 [[craft_coil.png]]
 [[craft_fine_copper_wire.png]]
@@ -124,7 +126,8 @@ comply with the current energy demand and production.
 
 Firstly, the battery box: for that, you will only need a few batteries
 and <...>. The batteries aren't hard to craft either: you will just
-need some <...> and some <...>.
+need some <...> and some <...>. Please note that batteries cannot be
+stacked.
 
 [[craft_battery.png]]
 [[craft_battery_box.png]]
@@ -134,13 +137,16 @@ Secondly, the generator: you will need <...>
 [[craft_generator.png]]
 
 Now, you can make a real circuit. Please note that the switching
-station needs to be above the wire, whereas the position of other
+station needs to be above the cable, whereas the position of other
 machines relative to the wires has no effect at all.
 
 [[basic_circuit.png]]
 
 To use the generator, simply put some fuel in its lower slot, and
-watch the battery box slowly fill up!
+watch the battery box slowly fill up! Some recommandations: you should
+use coalblocks instead of raw coal to power the generator, and when
+you will have a macerator ready, use coal dust - it's a lot more
+efficient than coal.
 
 "Ok, it's good, but what do we do now?". Well, we use that
 energy. Remember that machine I told yu about earlier? Well, we're
